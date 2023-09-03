@@ -1,7 +1,13 @@
-import './App.css';
+import About from './components/About';
+import Revenue from './components/Revenue';
 
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+const App = () => {
+  return (
+    <div className="h-full grid gap-20 place-content-center">
+      <About />
+      <Revenue />
+    </div>
+  );
+};
 
 export default App;
